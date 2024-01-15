@@ -39,7 +39,11 @@ class MyApp extends StatelessWidget {
           fillColor: Colors.grey.shade200,
           border: OutlineInputBorder(borderRadius: BorderRadius.circular(15)),
         ),
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color(0xfff45b00),
+          primary: const Color(0xfff45b00),
+          secondary: const Color(0xfff45b00),
+        ),
         useMaterial3: true,
       ),
       home: const SplashPage(),
