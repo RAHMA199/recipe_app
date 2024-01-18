@@ -47,6 +47,16 @@ class _SplashPageState extends State<SplashPage> {
                 padding: const EdgeInsets.all(8.0),
                 child: Image.asset(ImagesPath.baseHeader),
               ),
+              const SizedBox(
+                height: 5,
+              ),
+              const Text(
+                'Cooking Done The Easy Way',
+                style: TextStyle(
+                  color: Colors.grey,
+                  fontSize: 18,
+                ),
+              ),
               const CircularProgressIndicator(),
             ],
           ),

@@ -7,7 +7,15 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
-        child: Text('Home Page'),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              'Home Page',
+              style: TextStyle(fontSize: 22),
+            ),
+          ],
+        ),
       ),
     );
   }
